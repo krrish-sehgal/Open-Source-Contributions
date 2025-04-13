@@ -3,6 +3,17 @@
 This document highlights the key contributions made across various OWASP-BLT repositories. Each section combines related PRs and commits under a shared feature or objective to better showcase the development impact.
 
 ---
+### 🥓 BACON Token on Bitcoin Ordinals  
+Successfully deployed BACON tokens using Bitcoin Ordinals with full claim portal and backend server infrastructure.  
+- PRs: [#3670](https://github.com/OWASP-BLT/BLT/pull/3670), [#3724](https://github.com/OWASP-BLT/BLT/pull/3724), [#3303](https://github.com/OWASP-BLT/BLT/pull/3303)  
+- Key Commits:
+  - [b165265](https://github.com/OWASP-BLT/BLT-Bacon/commit/b165265120a9848e805ce1bd93e9a48572900bde)
+  - [a536b91](https://github.com/OWASP-BLT/BLT-Bacon/commit/a536b91b7aeb295f5b3e914ebf3d32bbbe54e55a)
+  - [902c643](https://github.com/OWASP-BLT/BLT-Bacon/commit/902c643a96606160cc9efbb1175ba8261192a050)
+  - [bf2b39f](https://github.com/OWASP-BLT/BLT-Bacon/commit/bf2b39f09aabe90dfdd8e72935825f1310693e77)
+  - [fbf32be](https://github.com/OWASP-BLT/BLT-Bacon/commit/fbf32bead1330935dcd21b00029cff6cdfe36aed)
+
+---
 
 ### 🛡️ Reporting Malicious/Friendly IP Addresses  
 Implemented a feature to report suspicious or friendly IP addresses to enhance security monitoring and response.
@@ -46,18 +57,6 @@ Enabled real-time text chat rooms using WebSockets for seamless collaboration.
 ### 📵 Spam Call Blocker for BLT Flutter App  
 Built a cross-platform extension to detect and block spam calls in the BLT Flutter app on both Android and iOS.  
 - PRs: [#464](https://github.com/OWASP-BLT/BLT-Flutter/pull/464), [#465](https://github.com/OWASP-BLT/BLT-Flutter/pull/465)
-
----
-
-### 🥓 BACON Token on Bitcoin Ordinals  
-Successfully deployed BACON tokens using Bitcoin Ordinals with full claim portal and backend server infrastructure.  
-- PRs: [#3670](https://github.com/OWASP-BLT/BLT/pull/3670), [#3724](https://github.com/OWASP-BLT/BLT/pull/3724), [#3303](https://github.com/OWASP-BLT/BLT/pull/3303)  
-- Key Commits:
-  - [b165265](https://github.com/OWASP-BLT/BLT-Bacon/commit/b165265120a9848e805ce1bd93e9a48572900bde)
-  - [a536b91](https://github.com/OWASP-BLT/BLT-Bacon/commit/a536b91b7aeb295f5b3e914ebf3d32bbbe54e55a)
-  - [902c643](https://github.com/OWASP-BLT/BLT-Bacon/commit/902c643a96606160cc9efbb1175ba8261192a050)
-  - [bf2b39f](https://github.com/OWASP-BLT/BLT-Bacon/commit/bf2b39f09aabe90dfdd8e72935825f1310693e77)
-  - [fbf32be](https://github.com/OWASP-BLT/BLT-Bacon/commit/fbf32bead1330935dcd21b00029cff6cdfe36aed)
 
 ---
 
