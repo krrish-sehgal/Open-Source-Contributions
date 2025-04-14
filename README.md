@@ -1,6 +1,6 @@
 # 📌 Contributions Summary
 
-This document highlights the key contributions made across various OWASP-BLT repositories. Each section combines related PRs and commits under a shared feature or objective to better showcase the development impact.
+This document highlights the key contributions made across various [OWASP-BLT](https://owaspblt.org/) repositories. Each section combines related PRs and commits under a shared feature or objective to better showcase the development impact.
 
 ---
 ### 🥓 BACON Token on Bitcoin Ordinals  
