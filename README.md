@@ -47,7 +47,7 @@ Enabled real-time text chat rooms using WebSockets for seamless collaboration.
 
 ### 🤖 AI-Based Features  
 - **Plagiarism Detector** using OpenAI and Hugging Face APIs to validate originality of user submissions.  
-  - PRs: [#3134](https://github.com/OWASP-BLT/BLT/pull/3134), [#3150](https://github.com/OWASP-BLT/BLT/pull/3150)
+  - PRs: [#3134](https://github.com/OWASP-BLT/BLT/pull/3134), [#3160](https://github.com/OWASP-BLT/BLT/pull/3160)
   
 - **AI Issue Generator and Poster** for automated issue creation using OpenAI.  
   - PR: [#3322](https://github.com/OWASP-BLT/BLT/pull/3322)
