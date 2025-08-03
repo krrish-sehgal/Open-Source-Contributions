@@ -1,11 +1,30 @@
-# 📌 Contributions Summary
+# 📌 Open Source Contributions Summary
 
-This document highlights the key contributions made across various [OWASP-BLT](https://owaspblt.org/) repositories. Each section combines related PRs and commits under a shared feature or objective to better showcase the development impact.
+This document highlights my key contributions across various open source organizations and repositories. Each section showcases development work organized by organization and feature areas to demonstrate the breadth and impact of my contributions.
 
 ---
+
+## 🏢 Organizations & Contributions Overview
+
+### 🛡️ [OWASP](https://owasp.org/) - [BLT (Bug Logging Tool)](https://github.com/OWASP-BLT/BLT)
+Contributing to cybersecurity tools and vulnerability management platforms.
+
+### 🔗 [Caravan Bitcoin](https://www.caravanmultisig.com/) - [Caravan](https://github.com/caravan-bitcoin/caravan)
+Working on Bitcoin multisig wallet infrastructure and PSBT handling.
+
+---
+
+## 🛡️ OWASP-BLT Contributions
+
+*Building advanced features for the Bug Logging Tool ecosystem including web platform, mobile app, and automation tools.*
 ### 🥓 BACON Token on Bitcoin Ordinals  
-Successfully deployed BACON tokens using Bitcoin Ordinals with full claim portal and backend server infrastructure.  
-- PRs: [#3670](https://github.com/OWASP-BLT/BLT/pull/3670), [#3724](https://github.com/OWASP-BLT/BLT/pull/3724), [#3303](https://github.com/OWASP-BLT/BLT/pull/3303)  
+Successfully deployed BACON tokens using Bitcoin Ordinals with full claim portal and backend server infrastructure, including staking mechanisms, AI integration, and comprehensive setup scripts.  
+- PRs: [#3670](https://github.com/OWASP-BLT/BLT/pull/3670), [#3724](https://github.com/OWASP-BLT/BLT/pull/3724), [#3303](https://github.com/OWASP-BLT/BLT/pull/3303), [#4461](https://github.com/OWASP-BLT/BLT/pull/4461), [#4445](https://github.com/OWASP-BLT/BLT/pull/4445), [#4398](https://github.com/OWASP-BLT/BLT/pull/4398), [#4368](https://github.com/OWASP-BLT/BLT/pull/4368), [#4288](https://github.com/OWASP-BLT/BLT/pull/4288)
+- Key Features:
+  - **Staking System**: BACON staking on user challenges
+  - **AI Integration**: AI-powered BACON scores with fallback mechanisms
+  - **Profile Integration**: BACON integrated across different pages and user profiles
+  - **Infrastructure**: Ord-API and Solana setup with mainnet and ordinals server scripts
 - Key Commits:
   - [b165265](https://github.com/OWASP-BLT/BLT-Bacon/commit/b165265120a9848e805ce1bd93e9a48572900bde)
   - [a536b91](https://github.com/OWASP-BLT/BLT-Bacon/commit/a536b91b7aeb295f5b3e914ebf3d32bbbe54e55a)
@@ -74,6 +93,46 @@ These PRs contributed to refactoring, bug fixes, feature enhancements, and autom
 - [#4083](https://github.com/OWASP-BLT/BLT/pull/4083), [#4089](https://github.com/OWASP-BLT/BLT/pull/4089)
 - [#71 (BLT-Action)](https://github.com/OWASP-BLT/BLT-Action/pull/71), [#72 (BLT-Action)](https://github.com/OWASP-BLT/BLT-Action/pull/72)
 - [#1040 (www-community)](https://github.com/OWASP/www-community/pull/1040#event-15939108134)
+
+---
+
+## 🔗 Caravan Bitcoin Contributions
+
+*Contributing to Bitcoin multisig wallet infrastructure with focus on PSBT (Partially Signed Bitcoin Transactions) handling, QR code interactions using BC-UR v2, and comprehensive testing frameworks.*
+
+### 🔐 Bitcoin Wallet & PSBT Infrastructure
+
+- **PSBT Signing & Testing**: Enhanced test suite with PSBT signing capabilities
+  - PR: [#353](https://github.com/caravan-bitcoin/caravan/pull/353)
+
+- **Dependency Injection & Testing**: Refactored decoder tests with dependency injection pattern
+  - PR: [#328](https://github.com/caravan-bitcoin/caravan/pull/328)
+
+- **BCUR2 Testing**: Added comprehensive tests for BC-UR v2 implementation in caravan-wallets
+  - PR: [#315](https://github.com/caravan-bitcoin/caravan/pull/315)
+
+- **Xpub Export via BCUR2**: Implemented extended public key export through BC-UR v2 in test suite
+  - PR: [#299](https://github.com/caravan-bitcoin/caravan/pull/299)
+
+- **Code Organization**: Moved policy files from caravan-wallets to caravan/multisig for better structure
+  - PR: [#261](https://github.com/caravan-bitcoin/caravan/pull/261)
+
+- **Count Management**: Removed setters and implemented private functions for count updates
+  - PR: [#229](https://github.com/caravan-bitcoin/caravan/pull/229)
+
+---
+
+## 📊 Contribution Statistics
+
+### OWASP-BLT
+- **Total PRs**: 40+ merged contributions
+- **Key Areas**: Blockchain integration, AI features, gamification, security tools
+- **Repositories**: BLT (main), BLT-Flutter, BLT-Action, BLT-Bacon
+
+### Caravan Bitcoin  
+- **Total PRs**: 6 merged contributions
+- **Key Areas**: Bitcoin wallet infrastructure, PSBT handling, testing frameworks
+- **Focus**: Multisig wallets, QR code interactions, BC-UR v2 protocol
 
 ---
 
